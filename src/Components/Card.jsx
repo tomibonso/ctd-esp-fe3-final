@@ -42,7 +42,7 @@ const Card = ({doctor}) => {
         {docs.map(doctor => (
           <li key={doctor.id} className="list-item">
             <Link to={'/dentista/' + doctor.id}>
-              <img src="./public/img/doctor.jpg" width={"270px"}/> 
+              <img src="/public/img/doctor.jpg" width={"270px"}/> 
               <div>
                 {doctor.name} - {doctor.username} ({doctor.id}) 
               </div>

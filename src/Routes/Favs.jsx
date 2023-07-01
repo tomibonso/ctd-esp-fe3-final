@@ -27,7 +27,7 @@ const Favs = () => {
           <li key={doctor.id} className="list-item">
             <h1>Dentist Added</h1>  
             <Link to={'/dentista/' + doctor.id}> 
-              <img src="./public/img/doctor.jpg" width={"200px"}/>
+              <img src="/public/img/doctor.jpg" width={"200px"}/>
               <div>
                 {doctor.name} - {doctor.username} ({doctor.id}) 
               </div>
